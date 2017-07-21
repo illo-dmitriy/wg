@@ -1,0 +1,241 @@
+body
+	margin: 0
+	.wrapper
+		max-width: 1280px
+		margin: 0 auto
+		font-family: "Open Sans", sans-serif
+		.header
+			padding-bottom: 100px
+			position: relative
+			.slider
+				.slide
+					position: relative
+					.slide__text
+						color: #fff
+						position: absolute
+						top: 8.5%
+						left: 23.5%
+						text-align: center
+						img
+							margin: 0 auto
+						h1
+							font-size: 49.35px
+							font-weight: normal
+							padding-top: 62px
+							margin: 0
+							text-transform: uppercase
+						h2
+							font-size: 49.35px
+							margin: 0
+							text-transform: uppercase
+			form
+				position: absolute
+				top: 64.3%
+				left: 36.7%
+				border: 1px solid #e6e6e6
+				background-color: #fff
+				display: inline-block
+				width: 335px
+				border-radius: 2px
+				padding-top: 30px
+				text-align: center
+				font-size: 15.35px
+				color: #938e8e
+				input
+					display: inline-block
+					width: 232px
+					padding: 7px 16px
+					margin-bottom: 27px
+					border-radius: 2px
+					
+				img
+					display: inline-block
+					margin-bottom: 20px
+				p
+					color: red
+					margin-top: 0
+				button
+					display: inline-block
+					background-color: #227dd3
+					border: none
+					border-radius: 2px
+					text-transform: uppercase
+					font-size: 25.65px
+					font-weight: 500
+					color: #fff
+					margin: 22px 0 28px
+					height: 45px 
+					width: 192px
+					cursor: pointer
+				button:hover
+					background-color: #0d12ef
+				button:active
+					background-color: #44a36f
+		.content
+			.carousel
+				margin: 70px auto 0
+				width: 75%
+				margin-bottom: 100px
+				.slick-prev, .slick-next
+					display: none !important
+				.card
+					display: flex
+					margin-right: 20px
+					margin-left: 20px
+					cursor: pointer
+					.card__image
+						margin-left: 10px
+						margin-right: 10px
+					.card__text
+						margin-left: 15px
+						margin-right: 15px
+						h3
+							font-size: 27.35px
+							font-weight: 600
+							margin: 0
+						p
+							font-size: 14px
+							color: #4f4e4e
+				.slick-dots
+					.slick-active
+						button:before
+							color: #5fc18b
+					li
+						margin-right: 27px
+						button:before
+							margin-top: 38px
+							color: #d8d8d8
+							font-size: 60px
+							opacity: 1
+					li:hover
+						button:before
+							color: #7d7878
+			.green
+				height: 1352px
+				width: 100%
+				background-color: #308355
+				position: relative
+				color: #fff
+				overflow: hidden
+				.green__first
+					height: 540px 
+					width: 0
+					border-left: 1280px solid #5fc18b
+					border-bottom: 330px solid transparent
+					position: absolute
+				.green__second
+					height: 500px 
+					width: 0
+					border-right: 1280px solid #44a36f
+					border-top: 300px solid transparent
+					position: absolute
+					top: 42%
+				.image
+					z-index: 1
+					position: absolute
+				.text
+					z-index: 2
+					position: absolute
+					h4
+						font-size: 39.35px
+						font-weight: 600
+						margin-bottom: 25px
+					p
+						font-size: 14px
+				.mobile
+					.mobile__image
+						top: 7%
+						left: 16%
+					.mobile__text
+						max-width: 690px
+						top: 15.5%
+						left: 21%
+						h4
+							text-align: center
+							margin-bottom: 25px
+						p
+							padding-left: 40px
+				.laptop
+					.laptop__image
+						top: 68%
+					.laptop__text
+						max-width: 520px
+						top: 62.5%
+						left: 44%
+						h4
+							margin-bottom: 15px
+						p
+							margin-bottom: 60px
+						button
+							background-color: transparent
+							color: #fff
+							padding: 10px 35px
+							font-size: 27.35px
+							border-radius: 5px
+							border: 3px solid #fff
+							cursor: pointer
+							margin-left: 10px
+						button:hover
+							background-color: #0a7b3d
+						button:active
+							background-color: #0a7b3d
+							color: #f5e40c
+							border: 3px solid #f5e40c
+			.feedback
+				position: relative
+				.map
+					width: 100%
+					height: 635px
+				.message
+					width: 430px
+					height: 430px
+					background-color: #fdfdfd
+					border-radius: 50%
+					position: absolute
+					z-index: 3
+					top: 25%
+					left: 33%
+					opacity: 0.8
+					form
+						padding-top: 100px
+						padding-left: 15px
+						input
+							display: block
+							margin: 0 auto
+							width: 265px
+							padding: 5px 0 5px 10px
+							margin-top: 14px
+							font-size: 14px
+							font-family: "Open Sans", sans-serif
+						textarea
+							display: block
+							margin: 14px auto 0
+							height: 70px
+							font-size: 14px
+							font-family: "Open Sans", sans-serif
+							padding-left: 10px
+							width: 265px
+						button
+							background-image: url("../img/check.png")
+							height: 67px
+							width: 66px
+							background-color: transparent
+							border: none
+							cursor: pointer
+							margin: 25px auto 0
+							display: block
+						button:hover
+							background-image: url("../img/check-hover.png")
+						button:active
+							background-image: url("../img/check-active.png")
+						span
+							color: red
+							padding-left: 70px
+							z-index: 5
+		footer
+			text-align: center
+			font-size: 14px
+			color: #fff
+			background-color: #43a06d
+			padding: 15px 0
+
